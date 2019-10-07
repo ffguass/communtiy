@@ -23,3 +23,18 @@
 [One Tab](https://chrome.google.com/webstore/detail/chphlpgkkbolifaimnlloiipkdnihall)    
 [Live Reload](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei/related)  
 [Postman](https://chrome.google.com/webstore/detail/coohjcphdfgbiolnekdpbcijmhambjff)
+
+##sql
+```
+create table USER
+(
+	ID INTEGER default (NEXT VALUE FOR PUBLIC.SYSTEM_SEQUENCE_583F9CFF_5DB4_4BF1_B3AE_0920FC045498) auto_increment,
+	ACCOUNT_ID VARCHAR(100),
+	NAME VARCHAR(50),
+	TOKEN CHAR(36),
+	GMT_CREATE BIGINT,
+	GMT_MODIFIED BIGINT,
+	constraint USER_PK
+		primary key (ID)
+);
+```
