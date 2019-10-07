@@ -27,7 +27,7 @@ public class GithubProvider {
             try (Response response = client.newCall(request).execute()) {
                 String string =  response.body().string();
                 String token = string.split("&")[0].split("=")[1];
-                return token;
+                return token;/*从GitHub的api读取access token，由于格式，上一行进行了split（分割）*/
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -41,7 +41,7 @@ public class GithubProvider {
                 .url("https://api.github.com/user?access_token=" + accessToken)
                 .build();
         try {
-            Response response = client.newCall(request).execute();
+            Response response = client.newCall(request).execute();/*从GitHub的api读取user信息，*/
             String string = response.body().string();
             GithubUser githubUser = JSON.parseObject(string,GithubUser.class);
             return githubUser;

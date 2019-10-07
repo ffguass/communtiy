@@ -5,7 +5,7 @@ public class AccessTokenDTO {
     private String client_secret;
     private String code;
     private String redirect_uri;
-    private String state;
+    private String state;/*建立参数存储access_token信息。需要getset方法*/
 
     public String getClient_id() {
         return client_id;

@@ -6,7 +6,7 @@ public class User {
     private String accountId;
     private String token;
     private Long gmtCreate;
-    private Long gmtModified;
+    private Long gmtModified;/*建立几个参数存储用户信息*/
 
     public Integer getId() {
         return id;
