@@ -3,7 +3,7 @@ package com.community1.springbootcommunity.dto;
 public class GithubUser {
     private String name;
     private Long id;/*防止后续不够*/
-    private String bio;/**/
+    private String bio;/*简介*/
 
 
     public String getName() {

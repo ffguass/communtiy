@@ -18,7 +18,7 @@ public class IndexController {
     private UserMapper userMapper;
 
     @GetMapping("/")
-    public String index(HttpServletRequest request){/*从reques里面获取cookies*/
+    public String index(HttpServletRequest request){/*从request里面获取token，获取token里面的cookies*/
         Cookie[]  cookies=request.getCookies();
         for(Cookie cookie : cookies){
             if(cookie.getName().equals("token")){
