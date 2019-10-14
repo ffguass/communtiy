@@ -6,4 +6,4 @@ create table USER
 	TOKEN CHAR(36),
 	GMT_CREATE BIGINT,
 	GMT_MODIFIED BIGINT,
-);git
+);

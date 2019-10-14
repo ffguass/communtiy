@@ -38,3 +38,7 @@ create table USER
 		primary key (ID)
 );
 ```
+```bash
+    mvn flyway:migrate 
+
+```

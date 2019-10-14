@@ -7,7 +7,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
 import javax.servlet.http.Cookie;
-import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 
 @Controller
@@ -17,7 +16,7 @@ public class IndexController {
     @Autowired
     private UserMapper userMapper;
 
-    @GetMapping("/")
+    @GetMapping("/index")
     public String index(HttpServletRequest request){/*从request里面获取token，获取token里面的cookies*/
         Cookie[]  cookies=request.getCookies();
         for(Cookie cookie : cookies){
@@ -30,7 +29,6 @@ public class IndexController {
                 break;
             }
         }
-
 
         return "index";
     }

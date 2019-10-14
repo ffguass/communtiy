@@ -1,12 +1,16 @@
 package com.community1.springbootcommunity;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
+import org.springframework.scheduling.annotation.EnableScheduling;
+
 
 @SpringBootApplication
-/*@ComponentScan(value = "com.community1")*/
+@MapperScan("com.community1.springbootcommunity.mapper")
+@EnableScheduling
 public class SpringBootCommunityApplication {
+
 
     public static void main(String[] args) {
         SpringApplication.run(SpringBootCommunityApplication.class, args);
