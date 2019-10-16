@@ -7,6 +7,7 @@ public class GithubUser {
     private String name;
     private Long id;/*防止后续不够*/
     private String bio;/*简介*/
+    private String avatar_url;
 
     @Override
     public String toString() {

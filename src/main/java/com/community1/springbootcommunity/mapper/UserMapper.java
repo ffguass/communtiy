@@ -15,5 +15,6 @@ public interface UserMapper {
     @Select("select * from user where token = #{token}")
     User findByToken(@Param("token") String token);/*将token与数据库的比较，找到一致的*/
 
-
+    @Select("select * from user where id = #{id}")
+    User findById(@Param("id") Integer id);
 }
