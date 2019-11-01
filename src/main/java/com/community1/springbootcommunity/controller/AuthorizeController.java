@@ -50,10 +50,11 @@ public class AuthorizeController {
             String token = UUID.randomUUID().toString();/*生成识别码，用于社区登录*/
             user.setToken(token);/*将获取的信息set并插入user表中*/
             user.setName(githubUser.getName());
-            user.setAccountId(String.valueOf(githubUser.getId()));
-            user.setGmtCreate(System.currentTimeMillis());
-            user.setGmtModified(user.getGmtCreate());
-            user.setAvatarUrl(githubUser.getAvatar_url());
+            user.setAccount_Id(String.valueOf(githubUser.getId()));
+            user.setGmt_Create(System.currentTimeMillis());
+            user.setGmt_Modified(user.getGmt_Create());
+            user.setAvatar_Url(githubUser.getAvatar_Url());
+            System.out.println(user.getAvatar_Url());
             userMapper.insert(user);
             response.addCookie(new Cookie("token",token));
             /*登陆成功，写cookie 和 session*/
@@ -61,6 +62,7 @@ public class AuthorizeController {
         }else{
             //登陆失败，重新登陆
             return "redirect:/";
+            /*System.out.println(user.getAvatar_Url());*/
         }
 
     }

@@ -7,12 +7,11 @@ public class Question {
     private Integer id;
     private String title;
     private String description;
-    private String tag;
-    private Long gmtCreate;
-    private Long gmtModified;
+    private Long gmt_Create;
+    private Long gmt_Modified;
     private Integer creator;
-    private Integer viewCount;
-    private Integer commentCount;
-    private Integer likeCount;
-
+    private Integer view_Count;
+    private Integer comment_Count;
+    private Integer like_Count;
+    private String tag;
 }
