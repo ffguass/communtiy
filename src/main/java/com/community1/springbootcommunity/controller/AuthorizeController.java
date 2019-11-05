@@ -2,9 +2,9 @@ package com.community1.springbootcommunity.controller;
 
 import com.community1.springbootcommunity.dto.AccessTokenDTO;
 import com.community1.springbootcommunity.dto.GithubUser;
-import com.community1.springbootcommunity.mapper.UserMapper;
 import com.community1.springbootcommunity.model.User;
 import com.community1.springbootcommunity.provider.GithubProvider;
+import com.community1.springbootcommunity.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
@@ -28,9 +28,9 @@ public class AuthorizeController {
     @Value("${github.redirect.uri}")
     private String redirectUri;
 
-    @Autowired
-    private UserMapper userMapper;
 
+    @Autowired
+    private UserService userService;
 
     @GetMapping("/callback")
     public String callback(@RequestParam(name = "code") String code,
@@ -50,12 +50,9 @@ public class AuthorizeController {
             String token = UUID.randomUUID().toString();/*生成识别码，用于社区登录*/
             user.setToken(token);/*将获取的信息set并插入user表中*/
             user.setName(githubUser.getName());
-            user.setAccount_Id(String.valueOf(githubUser.getId()));
-            user.setGmt_Create(System.currentTimeMillis());
-            user.setGmt_Modified(user.getGmt_Create());
-            user.setAvatar_Url(githubUser.getAvatar_Url());
-            System.out.println(user.getAvatar_Url());
-            userMapper.insert(user);
+            user.setAccountId(String.valueOf(githubUser.getId()));
+            user.setAvatarUrl(githubUser.getAvatarUrl());
+            userService.createOrUpdate(user);
             response.addCookie(new Cookie("token",token));
             /*登陆成功，写cookie 和 session*/
             return "redirect:/";
