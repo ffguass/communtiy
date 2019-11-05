@@ -13,8 +13,8 @@ public class QuestionController {
     @Autowired
     private QuestionService questionService;
 
-    @GetMapping("/question/{id}")
-    public String question(@PathVariable(name = "id") Integer id,
+    @GetMapping("/question/{id}")//给前端的接口
+    public String question(@PathVariable(name = "id") Long id,
                            Model model){
         QuestionDTO questionDTO = questionService.getById(id);
         model.addAttribute("question",questionDTO);
