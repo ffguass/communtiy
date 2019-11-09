@@ -7,7 +7,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 
 @SpringBootApplication
-@MapperScan("com.community1.springbootcommunity.mapper")
+@MapperScan(basePackages = "com.community1.springbootcommunity.mapper")
 @EnableScheduling
 public class SpringBootCommunityApplication {
 

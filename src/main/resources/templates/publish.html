@@ -38,7 +38,6 @@
             <h2><span class="glyphicon glyphicon-check" aria-hidden="true"></span>
                 发起</h2>
             <hr>
-
             <form action="/publish" method="post">
                 <input type="hidden" name="id" th:value="${id}">
                 <div class="form-group">
@@ -58,8 +57,8 @@
                         <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
 
                             <div class="alert alert-danger col-lg-12 col-md-12 col-sm-12 col-xs-12"
-                                 th:text="${error}"
-                                 th:if="${error != null}">
+                                 th:text="${Error}"
+                                 th:if="${Error != null}">
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">

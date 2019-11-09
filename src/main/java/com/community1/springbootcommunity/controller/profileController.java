@@ -31,10 +31,12 @@ public class profileController {
         if(user == null){
             return "redirect:/";
         }
-        if ("question".equals(action)) {
+        if ("questions".equals(action)) {
 
-            model.addAttribute("section", "question");
+            model.addAttribute("section", "questions");
             model.addAttribute("sectionName", "我的提问");
+            PaginationDTO paginationDTO = questionService.list(user.getId(), page, size);
+            model.addAttribute("pagination", paginationDTO);
         } else if ("replies".equals(action)) {
             model.addAttribute("section", "replies");
             model.addAttribute("sectionName", "最新回复");

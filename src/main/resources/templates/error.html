@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta content="text/html;  charset=UTF-8" http-equiv="Content-Type">
+    <title>SpringBoot版社区</title>
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="/css/community.css"/>
+    <script src="/js/bootstrap.min.js" type="application/javascript"></script>
+    <script src="/js/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+<div th:insert="navigation.html ::  nav"></div>
+    <div class="jumbotron">
+        <h1>页面不见了!</h1>
+        <p th:text="${message}">让群主开空调</p>
+        <p><a class="btn btn-primary btn-lg" href="/" role="button">返回首页</a></p>
+    </div>
+</div>
+</body>
+</html>
