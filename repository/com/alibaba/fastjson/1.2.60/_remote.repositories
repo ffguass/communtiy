@@ -1,4 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Tue Nov 05 22:32:43 CST 2019
+#Mon Nov 11 16:17:26 CST 2019
 fastjson-1.2.60.jar>alimaven=
+fastjson-1.2.60-sources.jar>alimaven=
 fastjson-1.2.60.pom>alimaven=

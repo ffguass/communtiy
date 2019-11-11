@@ -1,13 +1,13 @@
-create table question
-(
-    id int default 1 auto_increment primary key ,
-	title varchar(50),
-	description text,
-	gmt_create bigint,
-	gmt_modified bigint,
-	creator int,
-	comment_count int default 0,
+drop table if exists community1.QUESTION;
+create table community1.QUESTION(
+    id bigint auto_increment primary key ,
+	title varchar(50) null,
+	description text null,
+	gmt_create bigint null,
+	gmt_modified bigint null,
+	creator int null,
+	comment_count int default 0 ,
 	view_count int default 0,
 	like_count int default 0,
-	tag varchar(256)
+	tag varchar(256) null
 );

@@ -12,12 +12,13 @@
 </head>
 <body background-color="#efefef">
 <div th:insert="~{navigation.html ::  nav}"></div>
-<ul class="nav navbar-nav navbar-right">
+<!--<ul class="nav navbar-nav navbar-right">
     <li th:if="${session.user != null}">
         <a href="/publish">提问</a>
     </li>
+</ul>-->
     <!--<div th:text="${session}"></div>-->
-    <li class="dropdown" th:if="${session.user != null}">
+    <!--<li class="dropdown" th:if="${session.user != null}">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
            aria-expanded="false" >
             <span th:text="${session.user.getName()}"></span>
@@ -31,7 +32,7 @@
     <li th:if="${session.user == null}">
         <a href="https://github.com/login/oauth/authorize?client_id=8282249c47b5c8ad111e&redirect_uri=http://localhost:8088/callback&scope=user&state=1">登录</a>
     </li>
-</ul>
+</ul>-->
 <div class="container-fluid main">
     <div class="row">
         <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">

@@ -41,3 +41,13 @@ create table USER
     mvn flyway:migrate 
     mvn -Dmybatis.generator.overwrite=true mybatis-generator:generate
 ```
+```
+jsoneditor:
+{
+           "name":"数字",
+           "official_account":"dd社区",
+           "blog":"http://www.ffguass.community",
+           "age":22,
+           "tag":["星辰大海"]
+           }
+```

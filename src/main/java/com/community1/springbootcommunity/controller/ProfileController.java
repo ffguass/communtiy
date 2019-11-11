@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import javax.servlet.http.HttpServletRequest;
 
 @Controller
-public class profileController {
+public class ProfileController {
 
 
     @Autowired
@@ -35,8 +35,6 @@ public class profileController {
 
             model.addAttribute("section", "questions");
             model.addAttribute("sectionName", "我的提问");
-            PaginationDTO paginationDTO = questionService.list(user.getId(), page, size);
-            model.addAttribute("pagination", paginationDTO);
         } else if ("replies".equals(action)) {
             model.addAttribute("section", "replies");
             model.addAttribute("sectionName", "最新回复");
