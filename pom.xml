@@ -57,7 +57,7 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
-            <version>1.2.60</version>
+            <version>1.2.62</version>
         </dependency>
         <!--database-->
         <dependency>
@@ -105,9 +105,18 @@
             <version>1.7.28</version>
         </dependency>
         <dependency>
-            <groupId>log4j</groupId>
-            <artifactId>log4j</artifactId>
-            <version>1.2.17</version>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <exclusions><!-- 去掉springboot默认配置 -->
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-logging</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency> <!-- 引入log4j2-springExample.xmllog4j2依赖 -->
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-log4j2</artifactId>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
@@ -135,7 +144,7 @@
                 <configuration>
                     <url>jdbc:mysql://localhost:3366/community1</url>
                     <user>root</user>
-                    <password>0928gaoming@</password>
+                    <password>0928gaominYg@</password>
                     <driver>com.mysql.cj.jdbc.Driver</driver>
                 </configuration>
                 <dependencies>
