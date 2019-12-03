@@ -9,5 +9,5 @@ package com.community1.springbootcommunity.exception;
  **/
 public interface ICustomizeErrorCode {
     String getMessage();
-
+    Integer getCode();
 }

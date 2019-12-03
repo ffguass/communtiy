@@ -1,9 +1,9 @@
-drop table if exists community1.USER;
-create table community1.USER(
-	ID BIGINT auto_increment primary key,
-	ACCOUNT_ID VARCHAR(100),
-	NAME VARCHAR(50),
-	TOKEN CHAR(50),
-	GMT_CREATE BIGINT,
-	GMT_MODIFIED BIGINT
+drop table if exists user;
+create table user(
+	id int auto_increment primary key NOT NULL,
+	account_id varchar(100),
+	name varchar(50),
+	token char(50),
+	gmt_create bigint,
+	gmt_modified bigint
 );

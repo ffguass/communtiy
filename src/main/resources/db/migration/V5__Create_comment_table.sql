@@ -1,7 +1,7 @@
-drop table if exists community1.comment;
-create table community1.comment
+drop table if exists comment;
+create table comment
 (
-	id bigint auto_increment primary key,
+	id int auto_increment primary key not null,
 	parent_id bigint not null,
 	type int not null,
 	commentator int not null,

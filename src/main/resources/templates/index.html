@@ -10,6 +10,16 @@
     <script src="/js/bootstrap.min.js" type="application/javascript"></script>
     <script src="/js/jquery-3.4.1.min.js"></script>
 </head>
+<script type="application/javascript">
+    window.onload = function () {
+        /*debugger;*/
+        var closable = window.localStorage.getItem("closable");
+        if(closable == true){
+            window.close();
+            window.localStorage.removeItem("closable");
+        }
+    }
+</script>
 <body>
 <div th:insert="navigation.html ::  nav"></div>
 <div class="container-fluid main">
@@ -72,6 +82,7 @@
             <h3>热门话题</h3>
         </div>
     </div>
+
 </div>
 </body>
 </html>

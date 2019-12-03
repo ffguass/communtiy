@@ -1,6 +1,6 @@
-drop table if exists community1.QUESTION;
-create table community1.QUESTION(
-    id bigint auto_increment primary key ,
+drop table if exists question;
+create table question(
+    id int auto_increment primary key NOT NULL,
 	title varchar(50) null,
 	description text null,
 	gmt_create bigint null,
