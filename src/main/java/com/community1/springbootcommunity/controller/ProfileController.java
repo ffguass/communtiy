@@ -3,6 +3,7 @@ package com.community1.springbootcommunity.controller;
 import com.community1.springbootcommunity.dto.PaginationDTO;
 import com.community1.springbootcommunity.model.User;
 import com.community1.springbootcommunity.service.QuestionService;
+import org.apache.ibatis.annotations.Select;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

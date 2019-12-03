@@ -1,5 +1,6 @@
 package com.community1.springbootcommunity.controller;
 
+import com.community1.springbootcommunity.cache.TagCache;
 import com.community1.springbootcommunity.dto.QuestionDTO;
 import com.community1.springbootcommunity.mapper.QuestionMapper;
 import com.community1.springbootcommunity.model.Question;
@@ -34,7 +35,8 @@ public class PublishController {
     }
 
     @GetMapping("/publish")//给前端的接口
-    public String publish(){
+    public String publish(Model model) {
+        model.addAttribute("tags", TagCache.get());
         return "publish";
     }
 
@@ -50,6 +52,7 @@ public class PublishController {
         model.addAttribute("title",title);
         model.addAttribute("description",description);
         model.addAttribute("tag",tag);
+        model.addAttribute("tags", TagCache.get());
         if(StringUtils.isBlank(title)){
             model.addAttribute("Error","标题不能为空");
             return "publish";
@@ -75,6 +78,6 @@ public class PublishController {
         question.setCreator(user.getId());
         question.setId(id);
         questionService.createOrUpdate(question);
-        return "redirect:/ ";
+        return "redirect:/";
     }
 }
