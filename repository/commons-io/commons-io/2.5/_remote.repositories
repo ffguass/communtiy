@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Nov 11 16:16:47 CST 2019
+#Wed Jan 15 17:16:08 CST 2020
 commons-io-2.5.pom>alimaven=
 commons-io-2.5-sources.jar>alimaven=
+commons-io-2.5.jar>aliyunmaven=
+commons-io-2.5.pom>aliyunmaven=
 commons-io-2.5.jar>alimaven=

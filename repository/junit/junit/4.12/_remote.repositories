@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Nov 11 16:16:55 CST 2019
+#Wed Jan 15 17:16:09 CST 2020
+junit-4.12.pom>aliyunmaven=
 junit-4.12-sources.jar>alimaven=
 junit-4.12.pom>alimaven=
+junit-4.12.jar>aliyunmaven=
 junit-4.12.jar>alimaven=

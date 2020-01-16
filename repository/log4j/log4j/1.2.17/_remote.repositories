@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Nov 11 16:16:51 CST 2019
+#Wed Jan 15 17:16:14 CST 2020
+log4j-1.2.17.pom>aliyunmaven=
 log4j-1.2.17-sources.jar>alimaven=
 log4j-1.2.17.pom>alimaven=
 log4j-1.2.17.jar>alimaven=
+log4j-1.2.17.jar>aliyunmaven=

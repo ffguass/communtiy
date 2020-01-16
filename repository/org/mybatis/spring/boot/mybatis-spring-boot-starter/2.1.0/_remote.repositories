@@ -1,4 +1,6 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Tue Nov 05 09:20:37 CST 2019
+#Wed Jan 15 17:16:11 CST 2020
 mybatis-spring-boot-starter-2.1.0.pom>alimaven=
+mybatis-spring-boot-starter-2.1.0.jar>aliyunmaven=
+mybatis-spring-boot-starter-2.1.0.pom>aliyunmaven=
 mybatis-spring-boot-starter-2.1.0.jar>alimaven=

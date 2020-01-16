@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Nov 11 16:17:05 CST 2019
+#Wed Jan 15 17:16:08 CST 2020
 stax-ex-1.8.pom>alimaven=
 stax-ex-1.8-sources.jar>alimaven=
+stax-ex-1.8.pom>aliyunmaven=
+stax-ex-1.8.jar>aliyunmaven=
 stax-ex-1.8.jar>alimaven=

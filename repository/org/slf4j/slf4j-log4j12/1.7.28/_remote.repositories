@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Nov 11 16:16:57 CST 2019
+#Wed Jan 15 17:16:14 CST 2020
 slf4j-log4j12-1.7.28.jar>alimaven=
 slf4j-log4j12-1.7.28.pom>alimaven=
+slf4j-log4j12-1.7.28.jar>aliyunmaven=
 slf4j-log4j12-1.7.28-sources.jar>alimaven=
+slf4j-log4j12-1.7.28.pom>aliyunmaven=

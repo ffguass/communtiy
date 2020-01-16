@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Nov 11 16:17:23 CST 2019
+#Wed Jan 15 17:16:16 CST 2020
 tomcat-embed-el-9.0.26-sources.jar>alimaven=
 tomcat-embed-el-9.0.26.jar>alimaven=
+tomcat-embed-el-9.0.26.jar>aliyunmaven=
 tomcat-embed-el-9.0.26.pom>alimaven=
+tomcat-embed-el-9.0.26.pom>aliyunmaven=

@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Nov 11 16:16:58 CST 2019
+#Wed Jan 15 17:16:12 CST 2020
 lombok-1.18.10.pom>alimaven=
 lombok-1.18.10.jar>alimaven=
+lombok-1.18.10.pom>aliyunmaven=
 lombok-1.18.10-sources.jar>alimaven=
+lombok-1.18.10.jar>aliyunmaven=

@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Nov 11 16:17:24 CST 2019
+#Wed Jan 15 17:16:09 CST 2020
+xmlunit-core-2.6.3.pom>aliyunmaven=
 xmlunit-core-2.6.3-sources.jar>alimaven=
 xmlunit-core-2.6.3.pom>alimaven=
 xmlunit-core-2.6.3.jar>alimaven=
+xmlunit-core-2.6.3.jar>aliyunmaven=

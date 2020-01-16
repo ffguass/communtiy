@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Nov 11 16:17:32 CST 2019
+#Wed Jan 15 17:16:09 CST 2020
 android-json-0.0.20131108.vaadin1.jar>alimaven=
+android-json-0.0.20131108.vaadin1.pom>aliyunmaven=
 android-json-0.0.20131108.vaadin1-sources.jar>alimaven=
+android-json-0.0.20131108.vaadin1.jar>aliyunmaven=
 android-json-0.0.20131108.vaadin1.pom>alimaven=

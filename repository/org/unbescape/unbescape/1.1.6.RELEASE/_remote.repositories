@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Nov 11 16:17:29 CST 2019
+#Wed Jan 15 17:16:11 CST 2020
 unbescape-1.1.6.RELEASE.pom>alimaven=
+unbescape-1.1.6.RELEASE.jar>aliyunmaven=
 unbescape-1.1.6.RELEASE.jar>alimaven=
 unbescape-1.1.6.RELEASE-sources.jar>alimaven=
+unbescape-1.1.6.RELEASE.pom>aliyunmaven=

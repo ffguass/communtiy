@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Nov 11 16:17:33 CST 2019
+#Wed Jan 15 17:16:08 CST 2020
+logback-classic-1.2.3.pom>aliyunmaven=
 logback-classic-1.2.3.pom>alimaven=
 logback-classic-1.2.3.jar>alimaven=
 logback-classic-1.2.3-sources.jar>alimaven=
+logback-classic-1.2.3.jar>aliyunmaven=

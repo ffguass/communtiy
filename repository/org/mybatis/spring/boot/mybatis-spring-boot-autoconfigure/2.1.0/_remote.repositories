@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Nov 11 16:17:30 CST 2019
+#Wed Jan 15 17:16:11 CST 2020
 mybatis-spring-boot-autoconfigure-2.1.0-sources.jar>alimaven=
 mybatis-spring-boot-autoconfigure-2.1.0.jar>alimaven=
+mybatis-spring-boot-autoconfigure-2.1.0.jar>aliyunmaven=
+mybatis-spring-boot-autoconfigure-2.1.0.pom>aliyunmaven=
 mybatis-spring-boot-autoconfigure-2.1.0.pom>alimaven=

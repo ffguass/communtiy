@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Nov 11 16:16:48 CST 2019
+#Wed Jan 15 17:16:09 CST 2020
 jaxb-api-2.3.1.pom>alimaven=
 jaxb-api-2.3.1.jar>alimaven=
+jaxb-api-2.3.1.jar>aliyunmaven=
+jaxb-api-2.3.1.pom>aliyunmaven=
 jaxb-api-2.3.1-sources.jar>alimaven=

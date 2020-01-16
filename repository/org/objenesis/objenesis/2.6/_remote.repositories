@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Nov 11 16:16:46 CST 2019
+#Wed Jan 15 17:16:09 CST 2020
 objenesis-2.6-sources.jar>alimaven=
+objenesis-2.6.jar>aliyunmaven=
 objenesis-2.6.jar>alimaven=
 objenesis-2.6.pom>alimaven=
+objenesis-2.6.pom>aliyunmaven=

@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Nov 11 16:17:07 CST 2019
+#Wed Jan 15 17:16:09 CST 2020
+assertj-core-3.11.1.pom>aliyunmaven=
 assertj-core-3.11.1.pom>alimaven=
 assertj-core-3.11.1-sources.jar>alimaven=
 assertj-core-3.11.1.jar>alimaven=
+assertj-core-3.11.1.jar>aliyunmaven=

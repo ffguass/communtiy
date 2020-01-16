@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Nov 11 16:16:50 CST 2019
+#Wed Jan 15 17:16:12 CST 2020
 mybatis-spring-2.0.2.jar>alimaven=
 mybatis-spring-2.0.2.pom>alimaven=
+mybatis-spring-2.0.2.jar>aliyunmaven=
+mybatis-spring-2.0.2.pom>aliyunmaven=
 mybatis-spring-2.0.2-sources.jar>alimaven=

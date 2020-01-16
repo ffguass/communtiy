@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Nov 11 16:17:11 CST 2019
+#Wed Jan 15 17:16:09 CST 2020
 accessors-smart-1.2.jar>alimaven=
 accessors-smart-1.2.pom>alimaven=
+accessors-smart-1.2.pom>aliyunmaven=
 accessors-smart-1.2-sources.jar>alimaven=
+accessors-smart-1.2.jar>aliyunmaven=

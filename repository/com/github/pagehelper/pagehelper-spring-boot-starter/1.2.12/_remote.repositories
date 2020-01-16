@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Nov 11 16:17:39 CST 2019
+#Wed Jan 15 17:16:14 CST 2020
 pagehelper-spring-boot-starter-1.2.12.pom>alimaven=
+pagehelper-spring-boot-starter-1.2.12.pom>aliyunmaven=
 pagehelper-spring-boot-starter-1.2.12-sources.jar>alimaven=
 pagehelper-spring-boot-starter-1.2.12.jar>alimaven=
+pagehelper-spring-boot-starter-1.2.12.jar>aliyunmaven=
